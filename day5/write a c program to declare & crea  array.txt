@@ -1,0 +1,32 @@
+//write a c program to declare & create an array of size 10 and access the array elements
+#include <stdio.h>
+
+int main()
+ {
+    int array[10];
+    for (int i = 0; i < 10; i++)
+       {
+        array[i] = i + 1; 
+       }
+    printf("Array elements are:\n");
+    for (int i = 0; i < 10; i++)
+    {
+        printf("Elements %d: %d\n", i, array[i]);
+    }
+    return 0;
+}
+output:
+Array elements are:
+Elements 0: 1
+Elements 1: 2
+Elements 2: 3
+Elements 3: 4
+Elements 4: 5
+Elements 5: 6
+Elements 6: 7
+Elements 7: 8
+Elements 8: 9
+Elements 9: 10
+
+
+=== Code Execution Successful ===

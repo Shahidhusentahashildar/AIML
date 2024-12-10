@@ -1,0 +1,29 @@
+//write a c program to print a odd numbers from 1 to n using while loop 
+#include <stdio.h>
+int main()
+{
+    int num;
+    int i=1;
+    printf("enter an integer:");
+    scanf("%d",&num);
+    printf("numbers from 1 to %d \n",num);
+    while(i<=num)
+    {
+        if(i%2!=0)
+        printf("%d \n",i);
+        i++;
+    }
+    return 0;
+}
+
+output
+enter an integer:10
+numbers from 1 to 10 
+1 
+3 
+5 
+7 
+9 
+
+
+=== Code Execution Successful ===

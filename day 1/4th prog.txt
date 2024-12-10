@@ -1,0 +1,23 @@
+//write a c prog to read integer value as input from the user & check whether the user entered integer is a digit or a number
+#include <stdio.h>
+int main()
+{
+    int num;
+    printf("enter an integer is digit or number:");
+    scanf("%d",&num);
+    if(num>=-9 && num<=9)
+  { 
+    printf("entered integer value is digit\n",num);
+}
+    else
+    {
+    printf("entered integer value is number\n",num);
+   }
+    return 0;
+}
+
+output = enter an integer is digit or number:-8
+entered integer value is digit
+
+
+=== Code Execution Successful ===

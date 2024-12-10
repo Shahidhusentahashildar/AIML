@@ -1,0 +1,27 @@
+// write  a c program to accept a student's name and scores in three subjects. display the total,average ,and class secured based on the following critiria 1stclass:average score of 60 and above 2nd class:average score of 50and above.3rd class:average score of 35 and above . fail;average score less than 35 note:(Each student should score more than 35 marks in each subject (if qualified))
+#include <stdio.h>
+int main(){
+    char studentname[];
+    int subjectOne;
+    int subjectTwo;
+    int subjectThree;
+    printf("enter the student name:\n");
+    scanf("%s",&studentname);
+    printf("enter the first subject marks:\n");
+    scanf("%d",&subjectOne);
+    printf("enter the second subject marks:\n");
+    scanf("%d",&subjectTwo);
+    printf("enter the third subject marks:\n");
+    scanf("%d",&subjectThree);
+    printf("student report card \n");
+    printf("-----------------------------\n");
+    printf("student name:%s \n",studentname);
+    if(subjectOne<35||subjectTwo<35||subjectThree<35)
+    {
+        printf("")
+    }
+    
+    
+    
+}
+

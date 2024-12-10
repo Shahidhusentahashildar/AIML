@@ -1,0 +1,33 @@
+// write a c program to print the following pattern
+#include <stdio.h>
+int main() {
+    int num,i,j;
+    printf("Enter the number:");
+    scanf("%d",&num);
+    for (i=1;i<=num;i++) 
+    {
+        for (j=1;j<=num;j++)
+       {
+                if(j%2==0)
+            {
+                printf("* ");
+            }
+          else
+          {
+              printf("%c ",(96+j));
+          }
+       }
+       printf("\n");
+    }
+return 0;
+}
+output
+Enter the number:5
+a * c * e 
+a * c * e 
+a * c * e 
+a * c * e 
+a * c * e 
+
+
+=== Code Execution Successful ===

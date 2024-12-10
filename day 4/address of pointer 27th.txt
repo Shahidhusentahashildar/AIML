@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+   int num=144;
+   //declaring pointer
+   int*pointer=&num;
+    printf("num=%d \n",num);
+    //accessing the pointer address
+    printf("num=%p \n",num);
+    printf("pointer=%p",pointer);
+    return 0;
+}
+output
+num=144 
+num=0x90 
+pointer=0x7ffc2347f234
+
+=== Code Execution Successful ===

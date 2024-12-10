@@ -1,0 +1,28 @@
+//write a c program to check whether tje number is even or odd number
+#include <stdio.h>
+int main()
+{
+    int num;
+    printf("enter the number:");
+    scanf("%d",&num);
+  if(num%2==0)
+    {
+        printf("%d is even number\n",num);
+    }
+    else
+    {
+        printf(" %d is odd number",num);
+    }
+    return 0;
+}
+
+
+
+
+
+output
+
+enter the number:5
+ 5 is odd number
+
+=== Code Execution Successful ===

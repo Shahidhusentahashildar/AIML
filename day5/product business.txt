@@ -1,0 +1,41 @@
+
+#include <stdio.h>
+int main()
+{
+    int productcode;
+    int productname[15];
+    int quantity;
+    int price;
+    printf("enter the productcode:\n");
+    scanf("%d \n",&productcode);
+    printf("enter the productname:\n");
+    scanf("%s \n",&productname);
+    printf("enter the quantity:\n");
+    scanf("%d \n",&quantity);
+    printf("enter the price:\n");
+    scanf("%d \n",&price);
+    printf("customer bill :\n");
+    printf("------------------------\n");
+    printf("productcode :%s \n",productname);
+    printf("quantity :%d \n",quantity);
+    printf("price :%d*price\n",quantity,price);
+    printf("Total amount=%d",(quantity*price));
+}
+    
+
+output enter the productcode:
+vjt
+enter the productname:
+123
+enter the quantity:
+3
+enter the price:
+50
+customer bill :
+------------------------
+productcode :vjt 
+quantity :123 
+price :123*price
+Total amount=369
+
+=== Code Execution Successful ===

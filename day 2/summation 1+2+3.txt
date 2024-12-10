@@ -1,0 +1,20 @@
+// write the c program to print the square values for, 1 to n
+#include <stdio.h>
+int main() {
+    int num; 
+    int sum=0;
+    printf("enter the value of num:");
+    scanf("%d",&num);
+    for(int i=1;i<=num;i++){
+        sum=sum+i; //LHS(variable)=RHS(value)
+    }
+    printf("%d is summation of 1 to %d \n",sum,num);
+}
+
+
+output
+enter the value of num:10
+55 is summation of 1 to 10 
+
+
+=== Code Execution Successful ===

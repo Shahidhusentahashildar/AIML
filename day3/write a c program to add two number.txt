@@ -1,0 +1,18 @@
+//write a c program to add two numbers using functions 
+#include <stdio.h>
+int main()
+{
+  void Add(int num1,int num2)
+  {
+      printf("Addition of %d & %d is : %d \n",num1,num2,(num1+num2));
+  }
+  Add(266,378);
+  Add(133,25116);
+}
+
+output
+Addition of 266 & 378 is : 644 
+Addition of 133 & 25116 is : 25249 
+
+
+=== Code Execution Successful ===

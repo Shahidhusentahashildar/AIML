@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main(){
+    char Prog_Lang[]="C Programming";
+    printf("%s \n",Prog_Lang);
+    //iteration of string using loop
+    for(int i=0;i<13;i++)
+    {
+        printf("%c \n",Prog_Lang[i]);
+    }
+    return 0;
+}
+output
+C Programming 
+C 
+  
+P 
+r 
+o 
+g 
+r 
+a 
+m 
+m 
+i 
+n 
+g 
+
+
+=== Code Execution Successful ===

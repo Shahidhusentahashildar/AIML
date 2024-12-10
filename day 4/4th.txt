@@ -1,0 +1,26 @@
+// write a c program to print the following pattern
+#include<stdio.h>
+int main() {
+    int num,i,j;
+    printf("Enter the value: \n");
+    scanf("%d", &num); 
+        for(int i=1;i<=num;i++)
+        {
+        for(int j=1;j<=num;j++){
+             printf("%d" ,i);
+        }
+        printf("\n");
+}
+    return 0;
+}
+output
+Enter the value: 
+5
+11111
+22222
+33333
+44444
+55555
+
+
+=== Code Execution Successful ===

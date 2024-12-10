@@ -1,0 +1,18 @@
+//Write a c prog to product of two numbers using functions
+
+#include <stdio.h>
+int main()
+{
+  void product(int num1,int num2)
+  {
+      printf("product of %d & %d is : %d \n",num1,num2,(num1*num2));
+  }
+  product(266,378);
+  product(133,25116);
+}
+output
+product of 266 & 378 is : 100548 
+product of 133 & 25116 is : 3340428 
+
+
+=== Code Execution Successful ===

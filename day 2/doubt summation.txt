@@ -1,0 +1,21 @@
+
+// write the c program to print the summation of even numbers and odd numbers from 1 to n
+#include <stdio.h>
+int main() {
+    int num; 
+    int sum=0;
+    int Even_sum=0;
+    int Odd_sum=0;
+    printf("enter the value of num:");
+    scanf("%d",&num);
+    for(int i=1;i<=num;i++){
+        if(i%2==0){
+            Even_sum +=i;
+        }
+        else{
+            Odd_sum +=i;
+        }
+    } 
+  printf(" sum of even number from 1 to %d: %d\n",Even_sum);
+  printf("sum of odd number from 1 to %d:%d\n",Odd_sum);
+}

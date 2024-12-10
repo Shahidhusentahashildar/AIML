@@ -1,0 +1,62 @@
+
+#include <stdio.h>
+
+int main()
+{
+    void Display()
+{
+    printf("c \n");
+    printf("c++ \n");
+    printf("Java \n");
+    printf("Python \n");
+    printf("SQL \n");
+    printf("JavaScript \n");
+}
+Display();
+Display();
+Display();
+Display();
+Display();
+Display();
+} 
+
+output
+c 
+c++ 
+Java 
+Python 
+SQL 
+JavaScript 
+c 
+c++ 
+Java 
+Python 
+SQL 
+JavaScript 
+c 
+c++ 
+Java 
+Python 
+SQL 
+JavaScript 
+c 
+c++ 
+Java 
+Python 
+SQL 
+JavaScript 
+c 
+c++ 
+Java 
+Python 
+SQL 
+JavaScript 
+c 
+c++ 
+Java 
+Python 
+SQL 
+JavaScript 
+
+
+=== Code Execution Successful ===

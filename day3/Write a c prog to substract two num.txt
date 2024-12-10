@@ -1,0 +1,16 @@
+//Write a c prog to substract two numbers using functions
+
+#include <stdio.h>
+int main()
+{
+  void sub(int num1,int num2)
+  {
+      printf("subtraction of %d & %d is : %d \n",num1,num2,(num1-num2));
+  }
+  sub(266,378);
+  sub(133,25116);
+}
+
+
+output subtraction of 266 & 378 is : -112 
+subtraction of 133 & 25116 is : -24983 

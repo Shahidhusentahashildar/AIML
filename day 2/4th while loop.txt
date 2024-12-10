@@ -1,0 +1,33 @@
+//write a c program to read the integer as input from the user and numbers from 1 to n 
+#include <stdio.h>
+int main()
+{
+    int num;
+    int i=1;
+    printf("enter an integer:");
+    scanf("%d",&num);
+    printf("numbers from 1 to %d \n",num);
+    while(i<=num)
+    {
+        printf("%d \n",i);
+        i++;
+    }
+    return 0;
+}
+
+output
+enter an integer:10
+numbers from 1 to 10 
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+10 
+
+
+=== Code Execution Successful ===

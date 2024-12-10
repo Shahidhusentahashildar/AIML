@@ -1,0 +1,39 @@
+//write a c program to read amount as input from the user and print the number of notes required in indian currency dimension
+#include <stdio.h>
+
+int main()
+{
+    int amount;
+    int notes[] = {2000, 500, 200, 100, 50, 20, 10, 5, 2, 1};
+    int count[10] = {0};  
+    printf("Enter the amount: ");
+    scanf("%d", &amount);
+    for (int i = 0; i < 10; i++)
+    {
+        count[i] = amount / notes[i];  
+        amount = amount % notes[i];   
+    }
+    printf("Number of notes required:\n");
+    for (int i = 0; i < 10; i++)
+    {
+        if (count[i] > 0)
+        {
+            printf("₹%d------ %d notes\n", notes[i], count[i]);
+        }
+    }
+}
+    
+
+
+output
+
+Enter the amount: 12345
+Number of notes required:
+₹2000------ 6 notes
+₹200------ 1 notes
+₹100------ 1 notes
+₹20------ 2 notes
+₹5------ 1 notes
+
+
+=== Code Execution Successful ===

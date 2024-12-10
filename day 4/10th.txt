@@ -1,0 +1,26 @@
+// write a c program to print the following pattern
+#include <stdio.h>
+int main() {
+    int num, i, j;
+    printf("Enter the number: ");
+    scanf("%d", &num);
+    for (i = 1; i <=num; i++) {
+        for (j = 1; j <=i; j++) {
+            printf("%c ",(64+i));
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+output
+Enter the number: 5
+A 
+B B 
+C C C 
+D D D D 
+E E E E E 
+
+
+=== Code Execution Successful ===

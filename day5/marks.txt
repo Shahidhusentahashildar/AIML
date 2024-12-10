@@ -1,0 +1,64 @@
+// write  a c program to accept a student's name and scores in three subjects. display the total,average ,and class secured based on the following critiria 1stclass:average score of 60 and above 2nd class:average score of 50and above.3rd class:average score of 35 and above . fail;average score less than 35 note:(Each student should score more than 35 marks in each subject (if qualified))
+#include <stdio.h>
+int main()
+{
+    char Studentname[10];
+    int subjectOne;
+    int subjectTwo;
+    int subjectThree;
+    int total;
+    int average;
+    printf("enter the Student name:\n");
+    scanf("%s",&Studentname);
+    printf("enter the first subject marks:\n");
+    scanf("%d",&subjectOne);
+    printf("enter the second subject marks:\n");
+    scanf("%d",&subjectTwo);
+    printf("enter the third subject marks:\n");
+    scanf("%d",&subjectThree);
+    printf("student report card \n");
+    printf("-----------------------------\n");
+    printf("student name:%s \n",Studentname);
+    if(subjectOne<35||subjectTwo<35||subjectThree<3)
+    {
+        printf("Fail");
+    }
+    else
+    {
+       total=subjectOne+subjectTwo+subjectThree;
+       average=total/3;
+       printf("total:%d \n",total);
+       printf("average :%d \n",average);
+       if(average>=85)
+        {
+            printf("First class");
+        }
+        else if(average>=60)
+        {
+            printf("Second class");
+        }
+        else
+        {
+            printf("Third class");
+        }
+  }
+}
+
+output
+
+enter the Student name:
+janu
+enter the first subject marks:
+98
+enter the second subject marks:
+97
+enter the third subject marks:
+96
+student report card 
+-----------------------------
+student name:janu 
+total:291 
+average :97 
+First class
+
+=== Code Execution Successful ===

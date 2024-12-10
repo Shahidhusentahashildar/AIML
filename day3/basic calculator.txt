@@ -1,0 +1,34 @@
+//Write a c program to impliment the basic calculator using functions 
+#include <stdio.h>
+int main()
+{
+    int num1,num2;
+    printf("enter the value of num1:");
+    scanf("%d",&num1);
+    printf("enter the value of num2:");
+    scanf("%d",&num2);
+    void calculate(int x,int y)
+    {
+        printf("summation :%d \n",(x+y));
+        printf("difference :%d \n",(x-y));
+        printf("product :%d \n",(x*y));
+        printf("quotient :%d \n",(x/y));
+        printf("remainder :%d \n",(x%y));
+    }
+    calculate(num1,num2);
+}
+
+
+
+    
+output
+enter the value of num1:12
+enter the value of num2:13
+summation :25 
+difference :-1 
+product :156 
+quotient :0 
+remainder :12 
+
+
+=== Code Execution Successful ===

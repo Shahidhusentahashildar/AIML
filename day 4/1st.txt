@@ -1,0 +1,26 @@
+// write a c program to read a integer value as input from the user and print sum of the digits present in the number ??
+#include <stdio.h>
+int main() {
+    int num;
+    int sum_digit=0;
+    int rem=0;
+    printf("enter a integer value:");
+    scanf("%d",&num);
+    //condition to find the summation of digits
+    while(num!=0)
+    {
+      rem=num%10;
+      sum_digit=rem+sum_digit;
+      num=num/10;
+    }
+    printf("sum of the digit:%d \n",sum_digit);
+    return 0;
+}
+
+output
+
+enter a integer value:1234
+sum of the digit:10 
+
+
+=== Code Execution Successful ===

@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(){
+    int marks[3];
+    printf("physics :");
+    scanf("%d",&marks[0]);
+    
+    printf("chem :");
+    scanf("%d",&marks[1]);
+    
+    printf("math :");
+    scanf("%d",&marks[2]);
+    
+    printf("physcis=%d,",marks[0]);//physics
+    printf("chem=%d,",marks[1]);//chem
+    printf("math=%d,",marks[2]);//math
+    return 0;
+}
+
+
+output
+physics :99
+chem :98
+math :97
+physcis=99,chem=98,math=97,
+
+=== Code Execution Successful ===

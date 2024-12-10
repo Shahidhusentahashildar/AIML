@@ -1,0 +1,47 @@
+//write a c program to read amount as input from the user and print the number of notes required in indian currency dimension
+#include <stdio.h>
+
+int main()
+{
+    int amount;
+    printf("Enter the amount: ");
+    scanf("%d", &amount);
+    //logic to print number of notes in Indian currency
+    printf("rs 2000------>%d notes \n",amount/2000);
+    amount=amount%2000;
+    printf("rs 500------>%d notes \n",amount/500);
+    amount=amount%500;
+    printf("rs 200------>%d notes \n",amount/200);
+    amount=amount%200; 
+    printf("rs 100------>%d notes \n",amount/100);
+    amount=amount%100;
+    printf("rs 50------>%d notes \n",amount/50);
+    amount=amount%50;
+    printf("rs 20------>%d notes \n",amount/20);
+    amount=amount%20;
+    printf("rs 10------>%d notes \n",amount/10);
+    amount=amount%10;
+    printf("rs 5------>%d notes \n",amount/5);
+    amount=amount%5;
+    printf("rs 2------>%d notes \n",amount/2);
+    amount=amount%2;
+    printf("rs 1------>%d notes \n",amount/1);
+    amount=amount%1;
+}
+    
+
+output
+Enter the amount: 12557
+rs 2000------>6 notes 
+rs 500------>1 notes 
+rs 200------>0 notes 
+rs 100------>0 notes 
+rs 50------>1 notes 
+rs 20------>0 notes 
+rs 10------>0 notes 
+rs 5------>1 notes 
+rs 2------>1 notes 
+rs 1------>0 notes 
+
+
+=== Code Execution Successful ===
